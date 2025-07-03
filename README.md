@@ -1,10 +1,13 @@
 # Pharmacy-Management-System
+
 📌 Introduction
+
 The Pharmacy Management System is a console-based C++ application designed to help manage a pharmacy’s inventory, sales, and customer interactions in an efficient and organized manner. Managing medicines, their pricing, stock availability, and customer choices can become challenging, especially in a manual setting. This program aims to digitize and simplify those day-to-day pharmacy operations.
 
 The project is written in standard C++ and uses arrays, simple file handling, and functions to store, retrieve, and process data related to medicines. It supports both an admin/owner mode and a customer mode, providing different features for each user role.
 
 🩺 Problem Statement
+
 In the real world, many small to mid-sized pharmacies still rely on paper-based systems or purely manual processes to manage their medicine inventories. This approach is prone to errors, time-consuming, and difficult to scale. Problems such as:
 
 Stock mismanagement
@@ -18,15 +21,21 @@ Limited customer engagement
 can all reduce the efficiency of pharmacy operations. There is a need for a simple, affordable, and reliable digital solution that does not require heavy hardware or cloud subscriptions but still keeps records safe and easy to manage.
 
 🎯 Project Objectives
+
 This project aims to:
 
 ✅ Provide an easy-to-use digital system to manage medicines
+
 ✅ Reduce manual errors in stock and pricing
+
 ✅ Improve accessibility for customers to view available products
+
 ✅ Support owners in keeping track of medicine details and profitability
+
 ✅ Provide a solid base to expand with more advanced features in the future
 
 🌟 Features
+
 The Pharmacy Management System provides the following key features:
 
 Add Medicines
@@ -70,6 +79,7 @@ Color-coded Output
 For better readability, colored console outputs distinguish messages, errors, and menus.
 
 🗂️ System Architecture Overview
+
 The project is structured with a modular C++ design, making use of:
 
 Global Arrays
@@ -97,6 +107,7 @@ Sorting
 Uses bubble sort for arranging medicines by selling price in descending order, allowing customers and owners to spot high-value products easily.
 
 📊 Detailed Feature Explanation
+
 ➤ Add Product
 
 The owner can input medicine details, which are saved to arrays and written to a file immediately.
@@ -134,6 +145,7 @@ Medicine records are appended to a text file when added or updated.
 When the program starts, it loads existing records from the file to rebuild the in-memory arrays.
 
 🖥️ Code Flow
+
 Program starts
 
 Loads medicines from file into arrays
@@ -159,6 +171,7 @@ Loop
 Keeps running until user exits
 
 🛠️ How to Run
+
 Clone or download the project folder
 
 Open the .cpp file in your preferred IDE (Code::Blocks, Dev-C++, Visual Studio, etc.)
@@ -168,15 +181,22 @@ Make sure medicines.txt exists in the same folder
 Build and run the program
 
 ⚠️ Important:
+
 This project is designed for a simple console environment and does not use advanced GUI frameworks or a database engine.
 
 🚀 Future Improvements
 ✅ Add proper user signup & role management
+
 ✅ Add bill calculations and payment tracking
+
 ✅ Use a relational database instead of text files
+
 ✅ Build a graphical user interface
+
 ✅ Add expiry date & batch number tracking for medicines
 
 🙌 Credits
-This project was developed by [Your Name / Your Team Name] as a practice project in C++.
+
+This project was developed by Muhammad Ibraheem as a First Semester project using C++.
+
 It showcases skills in file handling, arrays, sorting, and functional programming with C++ for beginner to intermediate learners.
